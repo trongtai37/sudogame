@@ -1,0 +1,22 @@
+## Class: Generator
+
+The `LazySolver` class represents a Sudoku solver that generates all possible solutions lazily.
+
+### Constructor
+
+### `new LazySolver(config: { size: number, clues: Grid }): LazySolver`
+
+Creates a new instance of the `LazySolver` class with the specified configuration. The `size` parameter is a number that is used by the generator to generate puzzles.
+The size number is currently limited from `2` to `7`.
+
+- Parameters
+  - `config`: An object that specifies the size of the puzzle and the initial clues for the puzzle.
+    - `size`: The size of the puzzle (e.g., 3 for a 9x9 puzzle).
+    - `clues`: An array of arrays that represents the initial clues for the puzzle. Each inner array represents a row of the puzzle, and each element in the inner array represents a cell in the row. The value of each element should be either a number from `1` to `size^2` (the maximum value of a cell in the puzzle), or `0` to indicate an empty cell.
+
+### Instance Properties
+
+### `generator: Generator<SolveResult, null, unknown>`
+
+A javascript generator object that generates solutions to the Sudoku puzzle lazily.
+If there is no solution left, generator object return `null`.

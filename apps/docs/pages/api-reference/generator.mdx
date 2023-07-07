@@ -1,0 +1,19 @@
+## Class: Generator
+
+The Generator class represents a generator that can generate puzzles based on a specified size provided by user.
+
+### Constructor
+
+### `new Generator(size: number) => Generator`
+
+Creates a new instance of the Generator class with the specified `size` parameter. The `size` parameter is a number that is used by the generator to generate puzzles.
+The size number is currently limited from `2` to `7`.
+
+#### Instance Methods
+
+### `make(): GeneratorResult`
+
+Generates a new puzzles.
+
+- Parameters: None
+- Return: `GeneratorResult` presents an object including `{question: Grid, solution: Grid}`

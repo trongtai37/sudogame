@@ -1,0 +1,33 @@
+{
+  "name": "sudogame",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "format:check": "prettier --check",
+    "format:write": "prettier --write \"**/*.ts\"",
+    "release": "tsc && changeset publish"
+  },
+  "keywords": [
+    "sudoku",
+    "sudoku-solver",
+    "sudoku-generator",
+    "minisat"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongtai37/sudogame.git"
+  },
+  "author": "Tai Nguyen Trong <trongtaind37@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trongtai37/sudogame/issues"
+  },
+  "homepage": "https://github.com/trongtai37/sudogame#readme",
+  "dependencies": {
+    "logic-solver": "^2.0.1"
+  }
+}

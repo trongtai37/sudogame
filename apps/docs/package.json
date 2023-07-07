@@ -1,0 +1,32 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Better Sudoku official documentation.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trongtai37/sudogame.git"
+  },
+  "author": "Tai Nguyen Trong <trongtaind37@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trongtai37/sudogame/issues"
+  },
+  "homepage": "https://github.com/trongtai37/sudogame#readme",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.18.36",
+    "typescript": "^5.1.3"
+  }
+}

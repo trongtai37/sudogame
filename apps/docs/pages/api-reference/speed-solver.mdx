@@ -1,0 +1,26 @@
+## Class: SpeedSolver
+
+The `SpeedSolver` class represents a Sudoku puzzle solver that solve puzzles instantly.
+
+### Constructor
+
+### `new SpeedSolver(config: { size: number }): SpeedSolver`
+
+Creates a new instance of the `SpeedSolver` class with the specified configuration.
+
+- Parameters
+  - `config`: An object that specifies the size of the puzzle.
+    - `size`: The size of the puzzle (e.g., 3 for a 9x9 puzzle).
+
+### Instance Methods
+
+### `solve(puzzle: Grid): SolveResult`
+
+Solves the Sudoku puzzle specified by the `puzzle` parameter and returns the result. If there is no solution, returns result with `solution: null`.
+
+- Parameters
+
+  - puzzle: An array of arrays that represents the puzzle. Each inner array represents a row of the puzzle, and each element in the inner array represents a cell in the row. The value of each element should be either a number from `1` to `size^2`, or `0` to indicate an empty cell.
+
+- Returns
+  The result `SolveResult` presents an object including `{question: Grid, solution: Grid | null}`.
