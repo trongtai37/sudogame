@@ -1,0 +1,5 @@
+---
+'sudogame': major
+---
+
+first release
