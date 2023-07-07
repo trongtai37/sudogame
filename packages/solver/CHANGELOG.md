@@ -1,5 +1,11 @@
 # sudogame
 
+## 1.0.0
+
+### Major Changes
+
+- 57f621a: first release
+
 ## 2.0.0
 
 ### Major Changes
