@@ -1,5 +1,0 @@
----
-'sudogame': major
----
-
-second release
