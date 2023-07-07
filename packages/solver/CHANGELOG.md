@@ -1,5 +1,11 @@
 # sudogame
 
+## 2.0.0
+
+### Major Changes
+
+- da5504e: second release
+
 ## 1.0.0
 
 ### Major Changes
