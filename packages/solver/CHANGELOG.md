@@ -1,5 +1,11 @@
 # sudogame
 
+## 2.0.1
+
+### Patch Changes
+
+- f628a65: fix publish action
+
 ## 2.0.0
 
 ### Major Changes
