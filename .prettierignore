@@ -5,3 +5,4 @@ dist
 .github
 .vscode
 *.yaml
+apps/docs/pages/index.mdx
