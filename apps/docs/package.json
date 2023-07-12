@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/trongtai37/sudogame#readme",
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
