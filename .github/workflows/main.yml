@@ -19,5 +19,9 @@ jobs:
         with:
           node-version: 16.x
           cache: 'pnpm'
-      - run: pnpm install --frozen-lockfile
-      - run: pnpx nx format:check --all
+      - name: Install packages
+        run: pnpm install --frozen-lockfile
+      - name: Check code formatting
+        run: pnpx nx format:check --all
+      - name: Run unit tests
+        run: pnpx nx test sudogame
